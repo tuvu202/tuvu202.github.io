@@ -1,1 +1,26 @@
-<!DOCTYPE html><html><head><title>PoseNet</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" type="text/css" href="css.2e976d0c.css"></head><body> <div id="info" style="display:none"></div> <div id="loading" style="display:flex"> <div class="blocks"> <div class="block orange"></div> <div class="block blue"></div> </div> </div> <div id="main" style="display:none"> <video id="video" playsinline="" style="display:none;flex:3"></video> <canvas id="output"></canvas> <div class="result-panel"> <img src="https://is.muni.cz/do/rect/el/estud/fsps/js18/hormonalni_joga/web/pics/4.4.3.1_1_IMG_5644.jpg" class="img-matching"> <div class="count-down"> <div class="count-down-number">10</div> </div> <div class="score-container"><div id="score-placeholder">SCORE: --</div></div> </div> </div> <script src="camera.d63d344c.js"></script> </body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pose Matching</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+  </head>
+  <body>
+    <div id="info" style="display: none"></div>
+    <div id="loading" style="display: flex">
+      <div class="blocks">
+        <div class="block orange"></div>
+        <div class="block blue"></div>
+      </div>
+    </div>
+    <div id="main" style="display: none">
+      <video id="video" playsinline="" style="display: none; flex: 3"></video> <canvas id="output"></canvas>
+      <div class="result-panel">
+        <img src="https://is.muni.cz/do/rect/el/estud/fsps/js18/hormonalni_joga/web/pics/4.4.3.1_1_IMG_5644.jpg" class="img-matching" />
+        <div class="count-down"><div class="count-down-number">10</div></div>
+        <div class="score-container"><div id="score-placeholder">SCORE: --</div></div>
+      </div>
+    </div>
+    <script src="camera.js"></script>
+  </body>
+</html>
